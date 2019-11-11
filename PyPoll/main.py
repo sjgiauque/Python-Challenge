@@ -53,7 +53,7 @@ correy_percent = (correy_votes/total_votes) * 100
 li_percent = (li_votes/total_votes)* 100
 otooley_percent = (otooley_votes/total_votes) * 100
 
-# Print Summary
+# Print Statements
 print(f"Election Results")
 print(f"----------------------------")
 print(f"Total Votes: {total_votes}")
@@ -66,13 +66,12 @@ print(f"----------------------------")
 print(f"Winner: {key}")
 print(f"----------------------------")
 
-# Create Output files
-# Assign output file location
-output_file = Path("python-challenge", "PyPoll", "Election_Results_Summary.txt")
+# Define Print Statements output file location
+output_file = Path("Python-Challenge", "PyPoll", "Election_Results_Summary.txt")
 
 with open(output_file,"w") as file:
 
-# Print to Elections_Results_Summary 
+# Push/Write Printed Statements to Elections_Results_Summary 
     file.write(f"Election Results")
     file.write("\n")
     file.write(f"----------------------------")
