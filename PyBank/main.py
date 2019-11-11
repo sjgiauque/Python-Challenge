@@ -2,12 +2,10 @@
 	import os
 	import csv
 	
-	
 	# Map file location
 	input_file = os.path.join("Python-Challenge", "PyBank", "budget_data.csv")
 	
-
-	# Define loop variables
+	# Define "Loop" variables
 	total_months = []
 	total_profit = []
 	monthly_profit_change = []
@@ -60,13 +58,13 @@
 	print(f"Greatest Decrease in Profits: {total_months[max_decrease_month]} (${(str(max_decrease_value))})")
 	
 
-	# Output files
-	output_file = Path("python-challenge", "PyBank", "Financial_Analysis_Summary.txt")
+	# Define Print Statements output file location
+	output_file = Path("Python-Challenge", "PyBank", "Financial_Analysis_Summary.txt")
 	
 
 	with open(output_file,"w") as file:
 	    
-	# Write methods to print to Financial_Analysis_Summary 
+	# Push/Write Printed Statements to Financial_Analysis_Summary 
 	    file.write("Financial Analysis")
 	    file.write("\n")
 	    file.write("----------------------------")
