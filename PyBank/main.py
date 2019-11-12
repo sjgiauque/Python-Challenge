@@ -3,7 +3,7 @@
 	import csv
 	
 	# Map file location
-	input_file = os.path.join("Python-Challenge", "PyBank", "budget_data.csv")
+	input_file = os.path.join(".", "Resources", "budget_data.csv")
 	
 	# Define "Loop" variables
 	total_months = []
