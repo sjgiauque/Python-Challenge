@@ -3,7 +3,7 @@ import os
 import csv
 
 # Map file location
-csvpath = os.path.join("Python-Challenge", "PyPoll", "election_data.csv")
+csvpath = os.path.join(".", "Resources", "election_data.csv")
 
 # Define total_votes and candidate_votes as variables 
 total_votes = 0 
